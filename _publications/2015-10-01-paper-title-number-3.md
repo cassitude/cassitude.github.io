@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "Social Choice for Heterogeneous Fairness in Recommendation"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
+excerpt: 'We explore the properties of different social choice mechanisms on fairness/accuracy trade-offs using SCRUF-D and demonstrate the successful integration of multiple, heterogeneous fairness definitions across multiple data sets.'
+date: 2024-10-08
+venue: "RecSys '24"
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Algorithmic fairness in recommender systems requires close attention to the needs of a diverse set of stakeholders that may have competing interests. Previous work in this area has often been limited by fixed, single-objective definitions of fairness, built into algorithms or optimization criteria that are applied to a single fairness dimension or, at most, applied identically across dimensions. These narrow conceptualizations limit the ability to adapt fairness-aware solutions to the wide range of stakeholder needs and fairness definitions that arise in practice. Our work approaches recommendation fairness from the standpoint of computational social choice, using a multi-agent framework. In this paper, we explore the properties of different social choice mechanisms and demonstrate the successful integration of multiple, heterogeneous fairness definitions across multiple data sets.
